@@ -16,7 +16,7 @@ In general terms, an input file will consist of the 2D array of characters follo
 * Line n+1 of the input file will contain a single integer, p, representing the number of words in the word list.
 * Lines n+2 to n+2+p will each contain one word that you will search for.  All of the words in the list will be composed of lowercase letters from the English alphabet (‘a’ - ‘z’).
 * The name of each file will end in ‘.in’.   
-	For a sample input file, see [here](test1.in).
+	For a sample input file, see [here](test01.in).
 
 #### Output File Format
 For each input file, you will create an output file.  Here are some specifics about the format of the output file:
@@ -28,7 +28,7 @@ For each input file, you will create an output file.  Here are some specifics ab
 	* the y-axis location of the beginning of the word (-1 if the word was not found)
 	* the direction to travel from the beginning of the word -  one of ‘u’, ‘d’, ‘l’, ‘r’, ‘ul’, ‘ur’, ‘dl’, ‘dr’, or ‘nf’, which refer to the directions up, down, left, right, up to the left, up to the right, down to the left, down to the right, and not found, respectively.
 * The location values should be 1-indexed.  So the top left letter of the 2D array is position (1, 1).
-For a sample output file, see [here](test1.out).
+For a sample output file, see [here](test01.out).
 
 ### Executing the Program
 Your program will be executed from the command line.  One or more file names will be appended as command line arguments.  Each of these files will contain one word search puzzle.  You should process and produce an output file for each of them.  An example execution statement would be:
