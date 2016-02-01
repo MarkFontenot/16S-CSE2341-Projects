@@ -95,6 +95,7 @@ You don't have any idea how many individual words, index entries, etc. will be p
 
 In particular, you'll implement functionality that will resize your arrays as needed for the various different dimensions of your data structure (such as words, pages, page list, etc.). Figure 1 shows an overview of a potential memory layout for this project:
 
+![archi diag](https://raw.githubusercontent.com/MarkFontenot/16S-CSE2341-Projects/proj02/ProgAssign02/screenshot.png)
 
 At a minimum, your implementation should contain a pointer to a char pointer (char\*\*) and a pointer to an int pointer (int\*\*) at a minimum. You may have other data members as you see fit. Your implementation will likely always have some “extra” space to store more words and their page lists. **However, you may never have more than 10 unused spaces in your data structure.**
 
