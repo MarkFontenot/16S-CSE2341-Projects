@@ -13,3 +13,5 @@ Here are some things to keep in mind:
   * There is no guarantee that the grade your received on Program 01 will be your minimum possible score for Program 03.  
   * If you were happy with your score for program 01, don't think there's any room for improvement in your code base, and don't want to make any updates, **you still must submit your code in the Program 03 folder on Github**.   
   * There will be NO late submissions allowed for PA 03.  None.  Zero.  Zippo.  Nada.  Zilch!
+
+[General observations from the TA Staff](https://docs.google.com/document/d/1eyBMAMkVv_UNJJTGHeAcatn5rcNvBIm0WfhdsD53mf0/edit?usp=sharing) 
