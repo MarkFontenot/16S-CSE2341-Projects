@@ -2,8 +2,8 @@
 Programming Assignment 04 - CSE 2341 - Spring 2016
 
 #### Due Dates
-xxxxxxxxx - Submission of Basic Structure
-xxxxxxxxx - Final Submission
++ Feb 28, 2016 - 8am - Submission of Basic Structure - Note that this is a Sunday.  The reason for this due date is so that the TAs have adequate time to test all of the solutions and gather some preliminary timing data for benchmarking and to ensure that your projects compile with the TA driver code.
++ March 14, 2016 - 8am - Final Project Submission - pushed to GitHub and PR opened. 
 
 ## Introduction
 Here's what you will have to do:  develop a program that can sort a list of words from a text file.  The words must be sorted according to the following conditions:
