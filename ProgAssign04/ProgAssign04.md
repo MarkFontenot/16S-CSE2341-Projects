@@ -3,7 +3,7 @@ Programming Assignment 04 - CSE 2341 - Spring 2016
 
 #### Due Dates
 + Feb 28, 2016 - 8am - Submission of Basic Structure - Note that this is a Sunday.  The reason for this due date is so that the TAs have adequate time to test all of the solutions and gather some preliminary timing data for benchmarking and to ensure that your projects compile with the TA driver code.
-+ March 14, 2016 - 8am - Final Project Submission - pushed to GitHub and PR opened. 
++ March 14, 2016 - 8am - Final Project Submission - pushed to GitHub and PR opened.
 
 ## Introduction
 Here's what you will have to do:  develop a program that can sort a list of words from a text file.  The words must be sorted according to the following conditions:
@@ -53,14 +53,6 @@ The main purpose of this projects is to that you can see first hand how algorith
 + An analysis of the running times of at least 3 of the 5 methods for speed up on at least 10 data sets of increasing size.  Gather data, use Excel, show us some graphs.  Don’t try to take up “space” by using gigantic graphs though.
 
 **Everyone must participate.** This is not an optional exercise/competition. You may choose to not refine your algorithms to increase speed, but minimally, you must develop a working solution and write the paper. The implementation portion of this assignment is worth 50 points.
-
-## Things that will get you disqualified
-These things will get you disqualified from the competition:
-
-+ sorting as you're reading from the file
-+ not conforming to the specification listed herein
-+ attempting to hack the timing mechanism in some/any way
-+ other sketchy things that violate the spirit of the exercise (we'll be looking at your source code, ya know!)
 
 ## Prizes
 The First Place winner(s) can choose one of the following options as prizes:
@@ -190,6 +182,14 @@ public:
 };
 
 ```
+## Things that will get you disqualified
+These things will get you disqualified from the competition:
+
++ sorting as you're reading from the file
++ not conforming to the specification listed herein
++ attempting to hack the timing mechanism in some/any way
++ other sketchy things that violate the spirit of the exercise (we'll be looking at your source code, ya know!)
+
 
 ## Grading
 
