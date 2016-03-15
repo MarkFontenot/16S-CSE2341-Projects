@@ -16,6 +16,8 @@ The names of the two input files as well as the output file will be provided via
 ## Flight Data
 Consider a flight from Dallas to Paris. It’s possible that there is a direct flight, or it may be the case that a stop must be made in Chicago. One stop in Chicago would mean the flight would have two legs. We can think of the complete set of flights between different cities serviced by our airline as a directed graph. An example of an undirected graph is given in Figure 1.
 
+![alt text](https://raw.githubusercontent.com/MarkFontenot/16S-CSE2341-Projects/proj05/ProgAssign05/figure01.png "Figure 1")
+Figure 1
 
 In this example, a line from one city to another indicates a flight path both ways between the cities. The price and flight time is the same for both directions. If we wanted to travel from El Paso to city Chicago, we would have to pass through Detroit. This would be a trip with two legs. It is possible that there might not be a path from one city to another city.  In this case, you’d print an error message indicating such.
 
@@ -61,7 +63,7 @@ Path 2: Chicago -> Austin -> Houston -> Dallas. Time: 282 Cost: 340.00
 ## Implementation Details and Requirements
 In order to store the structure representing flights serviced by the company, you will implement a simple adjacency list data structure. Essentially, it will be a linked list of linked lists. There will be one linked list for every distinct city. Each list will contain the cities (and other needed info) that can be reached from this city. Figure 2 is an example representation of an adjacency list for the graph in Figure 1.
 
-*** figure 2 ***
+![alt text](https://raw.githubusercontent.com/MarkFontenot/16S-CSE2341-Projects/proj05/ProgAssign05/figure02.png "Figure 1") Figure 2
 
 The larger squares on the left represent the list cities (with one node for each city). The list to which each node is pointing represents a city from which you can get to from the parent node. For example, from city A, it is possible to fly to cities B and D.
 
